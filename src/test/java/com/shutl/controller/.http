@@ -1,0 +1,62 @@
+POST http://localhost:8080/quote HTTP/1.1
+content-type: application/json
+
+{
+  "pickupPostcode": "SW1A1AA",
+  "deliveryPostcode": "EC2A3LT"
+}
+
+###
+
+POST http://localhost:8080/quote HTTP/1.1
+content-type: application/json
+
+{
+  "pickupPostcode": "SW1A1AA",
+  "deliveryPostcode": "EC2A3LT",
+  "vehicle": "bicycle"
+}
+
+###
+
+POST http://localhost:8080/quote HTTP/1.1
+content-type: application/json
+
+{
+  "pickupPostcode": "SW1A1AA",
+  "deliveryPostcode": "EC2A3LT",
+  "vehicle": "motorbike"
+}
+
+###
+
+POST http://localhost:8080/quote HTTP/1.1
+content-type: application/json
+
+{
+  "pickupPostcode": "SW1A1AA",
+  "deliveryPostcode": "EC2A3LT",
+  "vehicle": "parcel_car"
+}
+
+###
+
+POST http://localhost:8080/quote HTTP/1.1
+content-type: application/json
+
+{
+  "pickupPostcode": "SW1A1AA",
+  "deliveryPostcode": "EC2A3LT",
+  "vehicle": "small_van"
+}
+
+###
+
+POST http://localhost:8080/quote HTTP/1.1
+content-type: application/json
+
+{
+  "pickupPostcode": "SW1A1AA",
+  "deliveryPostcode": "EC2A3LT",
+  "vehicle": "large_van"
+}

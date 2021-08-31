@@ -1,0 +1,10 @@
+label, input, p, button, select {
+    margin: 6px;
+}
+
+@media screen and (max-width: 600px) {
+    label, input, p, button, select {
+        width: 95%;
+        margin-top: 0;
+    }
+}
